@@ -1,0 +1,30 @@
+{
+    "compilerOptions": {
+      "target": "es6",
+      "module": "CommonJS",
+      "moduleResolution": "Node",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "sourceMap": false,
+      "allowSyntheticDefaultImports": true,
+      "noImplicitReturns": true,
+      "allowJs": true,
+      "declaration": false,
+      "noImplicitAny": false,
+      "esModuleInterop": true,
+      "baseUrl": "src",
+      "rootDir": "src",
+      "outDir": "dist",
+      "types": [
+        "node"
+      ]
+    },
+    "include": ["src/**/*"],
+    "exclude": [
+      "esbuild.js",
+      "node_modules", 
+      "dist", 
+      "scripts",
+    ]
+  }
+  
