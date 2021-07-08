@@ -85,7 +85,7 @@ export class Jira {
         issueKeys.add(key)
       })
     })
-    return Array.from(issueKeys)
+    return Array.from(issueKeys).slice(0,128)
   }
 
   async saveDeployment(options: DeploymentOptions) {
